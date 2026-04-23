@@ -58,12 +58,19 @@ Designed and implemented a fully functional **Asynchronous FIFO (First In First 
 ## Project Structure
 
 async_fifo_project/
+
 ├── writer.c        Writer process sends messages to FIFO
+
 ├── reader.c        Reader process async receives via select()
+
 ├── vcd_gen.c       VCD waveform generator in C
+
 ├── fifo_wave.vcd   GTKWave compatible waveform dump
+
 ├── Makefile        Build system all/run/clean
+
 ├── writer          Compiled writer binary
+
 └── reader          Compiled reader binary
 
 ---
